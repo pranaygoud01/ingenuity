@@ -24,7 +24,7 @@ const Footer = () => {
             <IoMdMail />
           </a>
           <a
-            href="mailto:ingenuitysicet@gmail.com"
+            href="https://ingenuitysicet.netlify.app/"
             className="hover:scale-110 duration-200"
           >
             <BsBrowserEdge />
