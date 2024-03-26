@@ -8,17 +8,17 @@ const Footer = () => {
     <div className="flex justify-center">
       <div className="max-w-[1440px] h-[200px] flex justify-center flex-col items-center">
         <div>
-          <h1 className="font-sans font-medium">ingenuITy</h1>
+          <h1 className="font-sans font-medium">TechFusion</h1>
         </div>
         <ul className="flex gap-8  text-2xl mt-5">
           <a
-            href="https://www.instagram.com/ingenuity.sicet/"
+            href="https://www.instagram.com/techfusion.sicet/"
             className="hover:scale-110 duration-200"
           >
             <FaInstagram />
           </a>
           <a
-            href="mailto:ingenuitysicet@gmail.com"
+            href="mailto:techfusionsicet@gmail.com"
             className="hover:scale-110 duration-200"
           >
             <IoMdMail />

@@ -11,20 +11,25 @@ const Home = () => {
           <div className="flex justify-center items-center  h-[400px] flex-col">
             <div className="w-2/5 max-md:w-3/4 text-center">
               <h1 className="text-5xl max-md:text-3xl flex font-medium">
-                Welcome to ingenuITy Unleashing Creativity!
+                Welcome to TechFusion Unleashing Creativity!
               </h1>
               <p className="my-8 max-md:text-sm font-sans  font-normal">
-                ingenuITy is an electrifying event pulsating with innovation,
+                TechFusion is an electrifying event pulsating with innovation,
                 creativity, and intellect, organized by the vibrant minds of
                 Information Technology Department.
               </p>
             </div>
-            <a
-              href="https://forms.office.com/r/QXmxKMem9G"
-              className="font-semibold font-sans py-2 px-4 text-sm text-white rounded-md bg-black"
-            >
-              Register
-            </a>
+            <div className="flex flex-col gap-5">
+              <a
+                href="https://forms.office.com/r/QXmxKMem9G"
+                className="font-semibold font-sans py-2 px-8 text-sm text-white rounded-md bg-black"
+              >
+                Register Now
+              </a>
+              <p className="font-semibold font-sans py-2 px-4 text-sm text-white rounded-md bg-blue-600">
+                Date:04 April 2024
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -44,15 +49,15 @@ const Home = () => {
             <PiGraduationCapFill />{" "}
           </p>
           <h1 className="font-medium max-md:text-4xl text-5xl">
-            About ingenuITy
+            About TechFusion
           </h1>
           <p className="font-sans max-md:text-sm  mt-10 text-center">
-            At ingenuITy, we believe in fostering a culture of innovation and
+            At TechFusion, we believe in fostering a culture of innovation and
             exploration. Through a myriad of technical and non-technical events,
-            workshops, and competitions, we aim to ignite the spark of ingenuity
-            within every participant. Whether you’re a tech enthusiast, an
-            aspiring entrepreneur, or a creative thinker, IngenuITy offers
-            something for everyone.
+            workshops, and competitions, we aim to ignite the spark of
+            TechFusion within every participant. Whether you’re a tech
+            enthusiast, an aspiring entrepreneur, or a creative thinker,
+            TechFusion offers something for everyone.
           </p>
         </div>
       </div>
@@ -69,11 +74,12 @@ const Home = () => {
                 </p>
                 <h1 className="text-4xl">Technical Events</h1>
                 <ul className="mt-3 text-lg list-decimal list-inside">
-                  <li>Mirror Coding</li>
+                  <li>CodeReflex</li>
                   <li>Speed Googling</li>
                   <li>TechTalks(PTT's)</li>
-                  <li>Quiz</li>
-                  <li>WebWars</li>
+                  <li>Brain Battle(Quiz)</li>
+                  <li>Scavenger Hunt</li>
+                  <li>Puzzle Maze</li>
                 </ul>
                 <div className="flex justify-center items-center">
                   <a
@@ -109,9 +115,11 @@ const Home = () => {
                 <ul className="mt-3 text-lg list-decimal  list-inside">
                   <li>Meme Lord </li>
                   <li>Art Gallery</li>
-                  <li>Haunted House</li>
-                  <li>Biscuit Challenge</li>
+                  <li>Game Monitoring</li>
+                  <li>Crumbly Crunch Challenge</li>
                   <li>Riddle Quest</li>
+                  <li>Picto Competition</li>
+                  <li>Rythm Riddle</li>
                 </ul>
                 <div className="flex w-full justify-end max-md:justify-center max-md:mb-10 mt-10   items-center">
                   <a
