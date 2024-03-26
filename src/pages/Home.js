@@ -15,8 +15,8 @@ const Home = () => {
               </h1>
               <p className="my-8 max-md:text-sm font-sans  font-normal">
                 TechFusion is an electrifying event pulsating with innovation,
-                creativity, and intellect, organized by the vibrant minds of
-                Information Technology Department.
+                creativity, and intellect, organized by the vibrant minds of IT
+                & CSIT Departments.
               </p>
             </div>
             <div className="flex flex-col gap-5">
